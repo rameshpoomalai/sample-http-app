@@ -11,6 +11,7 @@ The sample HTTP application implements the correct shutdown behavior for an HTTP
 This application implements the connection management itself in [main.go](main.go), but similar logic can be found in the [Shutdown method of the Golang HTTP server](https://golang.org/src/net/http/server.go?s=78921:78975#L2552).
 
 
+
 ## Configure
 
 The app is configurable by setting the following environment variables:
